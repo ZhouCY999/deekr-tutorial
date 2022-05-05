@@ -1,4 +1,5 @@
 Welcome to Lumache's documentation!
+DeeKr教育平台使用说明
 ===================================
 
 **Lumache** (/lu'make/) is a Python library for cooks and food lovers
