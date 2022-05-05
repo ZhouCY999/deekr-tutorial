@@ -1,25 +1,10 @@
-Welcome to Lumache's documentation!
-DeeKr教育平台使用说明
+DeeKr教育平台是一款面向中小学生进行AIOT（人工智能+物联网）教学和创作的软件平台。
 ===================================
 
-教育平台
-DeeKr
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
-
-Contents
+目录
 --------
 
 .. toctree::
 
-   usage
-   api
+   操作说明
+   接口API
