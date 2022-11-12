@@ -1,35 +1,30 @@
 # Configuration file for the Sphinx documentation builder.
+#
+# For the full list of built-in configuration values, see the documentation:
+# https://www.sphinx-doc.org/en/master/usage/configuration.html
 
-# -- Project information
+# -- Project information -----------------------------------------------------
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = u'DeeKr 帮助文档'
-copyright = '2021, DeeKr'
-author = 'DeeKr'
+project = 'Deekr软件使用手册'
+copyright = '2022, linyy69'
+author = 'linyy69'
+release = 'v1.0'
 
-release = '0.1'
-version = '0.1.0'
+# -- General configuration ---------------------------------------------------
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-# -- General configuration
-
-extensions = [
-    'sphinx.ext.duration',
-    'sphinx.ext.doctest',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
-    'sphinx.ext.intersphinx',
-]
-
-intersphinx_mapping = {
-    'python': ('https://docs.python.org/3/', None),
-    'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
-}
-intersphinx_disabled_domains = ['std']
+#extensions = []
+extensions = ['recommonmark','sphinx_markdown_tables'] 
 
 templates_path = ['_templates']
+exclude_patterns = []
 
-# -- Options for HTML output
+language = 'zh_CN'
 
-html_theme = 'sphinx_rtd_theme'
+# -- Options for HTML output -------------------------------------------------
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-# -- Options for EPUB output
-epub_show_urls = 'footnote'
+#html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme' 
+html_static_path = ['_static']
